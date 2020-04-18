@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="teste.php">
+    <p>Informe seu nome: </p>
+    <input type="text" name="nome">
+    <input type="submit" value="Enviar"/>
+    </form>
+    <p></p>
+    <form method="post" action="teste.php">
+    <input type="text" name="nome" required>
+    <button type="submit">Enviar</button>
+    </form>
+    <form action="http://www.example.com/subscribe.php">
+    <p>Usuário:
+    <input type="text" name="usuario" size="15" maxlength="30"/>
+    </p>
+    <p>Senha:
+    <input type="password" name="senha" size="15" maxlength="8"/>
+    </p>
+    </form>
+    <form action="http://www.example.com/subscribe.php" >
+    <p>Por favor, escolha seu gênero musical favorito <br/>
+    <input type="radio" name="genero" value="rock"checked="checked"/>Rock
+    <input type="radio" name="genero" value="pop" />Pop
+    <input type="radio" name="genero" value="jazz" />Jazz
+    </p>
+    </form>
+    <form action="http://www.example.com/subscribe.php">
+    <p>Por favor, escolha seu(s) esportes favorito(s):
+    <br/>
+    <input type="checkbox" name="esporte" value="futebol" checked="checked"/>Futebol
+    <input type="checkbox" name="esporte" value="natacao" />Natação
+    <input type="checkbox" name="esporte" value="surf" />Surf
+    <input type="checkbox" name="esporte" value="outros" />Outros
+    </p>
+    </form>
+
+</body>
+</html>
